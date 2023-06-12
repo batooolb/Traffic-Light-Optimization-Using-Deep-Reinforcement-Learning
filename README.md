@@ -29,3 +29,21 @@ to your /.bashrc file:
 **Step 4:** Install Stable Baselines3
 1. Run the following command to install Stable Baselines3 which includes reinforcement learning algorithms:
 **pip install stable-baselines3[extra]**
+
+Once you have successfully installed all requirements, you can run the system locally and
+use the interface we provide. In order to do that, please follow the following steps:
+**Step 3:** Install Streamlit
+1. Install Streamlit on your device by running the following command on the Ubuntu
+terminal:
+**pip install Streamlit**
+2. Change the directory to the one where all the system files are located.
+3. Run the following command to access the Streamlit interface:
+**Streamlit run main.py**
+4. Click on the local host URL that appears.
+5. Input the net and route files’ names. You can use the files located in sumo-intersection-files.
+6. Choose the method you want to run.
+7. Press on run method.
+
+You should now get real-time graphs that clearly illustrate the performance of the model by
+visualizing the relationship between time steps and other important information such as the
+waiting time and queue length.
