@@ -32,7 +32,8 @@ to your /.bashrc file:
 
 Once you have successfully installed all requirements, you can run the system locally and
 use the interface we provide. In order to do that, please follow the following steps:
-**Step 3:** Install Streamlit
+
+**Step 5:** Install Streamlit
 1. Install Streamlit on your device by running the following command on the Ubuntu
 terminal:
 **pip install Streamlit**
